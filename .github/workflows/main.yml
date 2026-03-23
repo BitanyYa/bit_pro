@@ -2,7 +2,7 @@ name: GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # runs daily at midnight UTC
+    - cron: '0 0 * * *'   # daily at midnight UTC
   workflow_dispatch:       # allows manual trigger
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '20'
 
-      # 3️⃣ Install snake generator globally
+      # 3️⃣ Install snake generator
       - name: Install snake generator
         run: npm install -g github-contribution-grid-snake
 
@@ -26,25 +26,25 @@ jobs:
       - name: Create output folder
         run: mkdir -p output
 
-      # 5️⃣ Generate contribution snake (safe)
+      # 5️⃣ Generate contribution snake
       - name: Generate GitHub contribution snake
         run: |
           echo "Generating contribution snake..."
           npx github-contribution-grid-snake \
-            -u <username> \
+            -u BethanyaWondimagegn \
             -o output/github-contribution-grid-snake.svg \
             -t ${{ secrets.GITHUB_TOKEN }} \
             || echo "Snake generation failed, continuing workflow"
 
-      # 6️⃣ Configure Git (required to commit)
+      # 6️⃣ Configure Git
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 7️⃣ Commit & push changes safely
+      # 7️⃣ Commit & push snake safely
       - name: Commit and push snake
         run: |
           git add output/github-contribution-grid-snake.svg
           git commit -m "Update contribution snake" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/<username>/<repo>.git HEAD:main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/BethanyaWondimagegn/bit_pro.git HEAD:main
