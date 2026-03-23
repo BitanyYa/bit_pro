@@ -82,10 +82,10 @@
 
 ---
 
-## 🐍 Contribution Activity
+## 📝 Top Languages
 
 <p align="center">
-  <img src="https://github.com/BitanyYa/BitanyYa/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BitanyYa&layout=compact&theme=tokyonight" />
 </p>
 
 ---
