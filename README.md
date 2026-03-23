@@ -31,7 +31,7 @@
 🟢 Real-time meetings, chat, and session management  
 ⚙️ TypeScript • Node.js • WebRTC • PostgreSQL  
 
-🔗 [https://github.com/yourusername/video-app](https://github.com/MeronTekle07/Video-Conference-Web-App.git)  
+🔗 (https://github.com/MeronTekle07/Video-Conference-Web-App.git)  
 
 ---
 
@@ -39,7 +39,7 @@
 🟢 Connects users with pharmacies for easy medication access  
 ⚙️ React • Node.js • MongoDB  
 
-🔗 [https://github.com/yourusername/medilink ](https://github.com/HawiGenene1/Medilink.git) 
+🔗 (https://github.com/HawiGenene1/Medilink.git) 
 
 ---
 
@@ -47,7 +47,7 @@
 🟢 Rental + lottery-based car allocation system with admin dashboard  
 ⚙️ TypeScript • Node.js • PostgreSQL  
 
-🔗 [https://github.com/yourusername/car-platform](https://github.com/HuniyaMusema/Drive-Hub-luck.git)  
+🔗 (https://github.com/HuniyaMusema/Drive-Hub-luck.git)  
 
 </div>
 
