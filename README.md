@@ -75,7 +75,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  [<img src="https://github-readme-stats.vercel.app/api?username=BitanyYa&show_icons=true&theme=tokyonight&hide_border=true" />]
+ <img src="https://github-readme-stats.vercel.app/api?username=BitanyYa&theme=tokyonight" />
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BitanyYa&cache_seconds=1&theme=tokyonight" />
 </p>
@@ -85,7 +85,7 @@
 ## 📝 Top Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BitanyYa&cache_seconds=1&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BitanyYa&layout=compact&theme=tokyonight" />
 </p>
 
 ---
